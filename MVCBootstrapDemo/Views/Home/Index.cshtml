@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<head>
+    <title>Bootstrap Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- May want to add these scripts at the bottom of the file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.btn.success').button('toggle').addClass('active');
+           
+        });
+    </script>
+
+</head>
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">Bootstrap keepin' it real.</p>
+    <p><a href="http://getbootstrap.com/javascript/" class="btn btn-primary btn-lg">Get Bootstrap</a></p>
+</div>
+<br />
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <p>
+                Hello Bootstrap!
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p>
+                Hello Bootstrap 2!
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p>
+                Hello Bootstrap 3!
+            </p>
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <table class="table-hover table-striped table-responsive" cellpadding="4">
+            <thead>
+               <tr>
+                    <th>Vehicle Type</th>
+                    <th>Number Owned</th>
+                    <th>Make & Model</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Cars</th>
+                    <td>1</td>
+                    <td>Dodge Viper</td>
+                </tr>
+                <tr>
+                    <th>Cars</th>
+                    <td>2</td>
+                    <td>Nissan Skyline</td>
+                </tr>
+                <tr>
+                    <th>Cars</th>
+                    <td>4</td>
+                    <td>Nissan 240sx</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <br />
+    <div class"btn-group" data-toggle="buttons">
+        <label class="btn btn-success active">
+            <input type="checkbox" autocomplete="off">No!
+        </label>
+        <label class="btn btn-success">
+            <input type="checkbox" data-toggle="button">Yes!
+        </label>
+        
+    </div>
+   
+</div>
